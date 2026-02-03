@@ -98,6 +98,32 @@ The `doc_audit.yml` workflow is scheduled to run **every Monday at 09:00 UTC**.
 * **Security Gap:** No documentation on Enterprise SSO/SAML configuration.
 * **Tools:** Current docs lack "Generic Webhooks" for custom automation.
 
+## 🧠 AI Prompt Engineering strategy
+
+To ensure the AI analysis is deterministic and grounded in the provided data, I utilized a **Role-Based** prompting strategy with strict JSON output constraints.
+
+### System Prompt Template used in `analyze_gaps.py`:
+
+```text
+You are a Senior QA Automation Engineer for zipBoard (a bug tracking & visual review tool).
+
+Here is our COMPLETE list of help articles:
+{titles}
+
+COMPETITOR INTELLIGENCE:
+Competitors like BugHerd and Marker.io excel in these areas:
+1. CI/CD Integrations (GitHub Actions, GitLab CI)
+2. Accessibility (WCAG) Audits
+3. AdBlocker/Extension Troubleshooting
+4. Enterprise Security (SSO, Whitelisting)
+5. Webhooks & API Automation
+
+TASK:
+Identify 5 specific documentation gaps where zipBoard is missing content compared to these standards.
+
+RETURN JSON ONLY. No explanation.
+```
+
 ## 📝 License
 
 MIT License.
