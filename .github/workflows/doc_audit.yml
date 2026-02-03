@@ -1,0 +1,44 @@
+name: Weekly Documentation Audit & Gap Detection
+
+on:
+  schedule:
+    - cron: '0 9 * * 1' # Runs every Monday at 9:00 AM UTC
+  workflow_dispatch:      # Allows you to click a "Run Now" button manually
+
+permissions:
+  contents: write # Needed so the bot can commit the new report back to the repo
+
+jobs:
+  audit-and-analyze:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: |
+          pip install requests beautifulsoup4 pandas openai
+
+      - name: 1. Scrape Help Center
+        run: python scraper.py
+        # This updates zipboard_help_data.csv with the latest articles
+
+      - name: 2. Analyze Gaps with AI
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: python analyze_gaps.py
+        # This reads the CSV, asks DeepSeek/Nemotron for gaps, and saves gap_report.json
+
+      - name: 3. Commit Reports
+        run: |
+          git config --global user.name 'zipBoard-Bot'
+          git config --global user.email 'bot@zipboard.co'
+          # Check if files changed. If yes, commit and push.
+          git add zipboard_help_data.csv gap_report.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated: Weekly Documentation Audit" && git push)
