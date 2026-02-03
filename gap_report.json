@@ -1,0 +1,37 @@
+[
+  {
+    "Gap ID": "GAP-001",
+    "Category": "CI/CD Integrations",
+    "Gap Description": "No dedicated guides for integrating zipBoard with GitHub Actions or GitLab CI pipelines, limiting automated feedback loops in DevOps workflows.",
+    "Priority": "High",
+    "Suggested Title": "CI/CD Integration Guides for GitHub Actions and GitLab CI"
+  },
+  {
+    "Gap ID": "GAP-002",
+    "Category": "Accessibility",
+    "Gap Description": "Documentation lacks instructions on conducting WCAG compliance checks within zipBoard reviews and ensuring accessible feedback collection.",
+    "Priority": "Medium",
+    "Suggested Title": "Accessibility Audits and WCAG Compliance in zipBoard Reviews"
+  },
+  {
+    "Gap ID": "GAP-003",
+    "Category": "Extension Troubleshooting",
+    "Gap Description": "Insufficient troubleshooting steps for ad\u2011blocker or browser extension issues that prevent annotation tools from loading or functioning.",
+    "Priority": "High",
+    "Suggested Title": "Ad\u2011Blocker and Extension Troubleshooting Checklist"
+  },
+  {
+    "Gap ID": "GAP-004",
+    "Category": "Enterprise Security",
+    "Gap Description": "Limited details on SSO configuration, SAML setup, and IP whitelisting options for enterprise security administration.",
+    "Priority": "High",
+    "Suggested Title": "Enterprise Security: SSO, SAML, and Whitelisting Setup"
+  },
+  {
+    "Gap ID": "GAP-005",
+    "Category": "Webhooks & API Automation",
+    "Gap Description": "Missing comprehensive documentation on webhook payloads, authentication workflows, and real\u2011time API automation examples for custom integrations.",
+    "Priority": "Medium",
+    "Suggested Title": "Webhooks & API Automation: Payloads, Authentication, and Real\u2011Time Integration Examples"
+  }
+]
