@@ -2,35 +2,35 @@
   {
     "Gap ID": "GAP-001",
     "Category": "Integrations",
-    "Gap Description": "No documentation on integrating zipBoard with CI/CD pipelines such as GitHub Actions and GitLab CI for automated issue creation and status updates.",
+    "Gap Description": "No documentation on CI/CD integrations such as GitHub Actions, GitLab CI, or Jenkins for automatically creating or updating zipBoard issues and tasks.",
     "Priority": "High",
-    "Suggested Title": "CI/CD Integration Guide: GitHub Actions & GitLab CI"
+    "Suggested Title": "CI/CD Integration Guide for Automated Issue Creation"
   },
   {
     "Gap ID": "GAP-002",
     "Category": "Accessibility",
-    "Gap Description": "No guidance on conducting WCAG compliance audits or accessibility testing within zipBoard and interpreting the results.",
+    "Gap Description": "Absence of a guide on performing WCAG accessibility audits within zipBoard, including how to run accessibility tests and interpret results.",
     "Priority": "High",
-    "Suggested Title": "Accessibility Audits and WCAG Compliance in zipBoard"
+    "Suggested Title": "Accessibility Audit Workflow in zipBoard"
   },
   {
     "Gap ID": "GAP-003",
-    "Category": "Troubleshooting",
-    "Gap Description": "Missing troubleshooting steps for ad\u2011blockers or browser extensions that prevent the zipBoard extension from loading or functioning.",
-    "Priority": "High",
-    "Suggested Title": "AdBlocker & Extension Troubleshooting"
+    "Category": "AdBlocker/Extension Troubleshooting",
+    "Gap Description": "Missing troubleshooting steps for users encountering ad\u2011blockers or browser extensions that prevent the zipBoard extension or annotation tools from functioning.",
+    "Priority": "Medium",
+    "Suggested Title": "Resolving Ad\u2011Blocker and Extension Issues with zipBoard"
   },
   {
     "Gap ID": "GAP-004",
-    "Category": "Security",
-    "Gap Description": "Insufficient detail on configuring enterprise\u2011level SSO (SAML) and IP whitelisting, including step\u2011by\u2011step setup instructions.",
+    "Category": "Enterprise Security",
+    "Gap Description": "Lack of detailed documentation on Single Sign\u2011On (SSO) configuration (SAML, OAuth) and IP whitelisting settings for Enterprise accounts.",
     "Priority": "High",
-    "Suggested Title": "Enterprise SSO and IP Whitelisting Configuration"
+    "Suggested Title": "Enterprise SSO and Whitelisting Configuration Guide"
   },
   {
     "Gap ID": "GAP-005",
-    "Category": "Automation",
-    "Gap Description": "Lack of comprehensive webhook reference and automation examples for triggering actions or pulling data programmatically via the API.",
+    "Category": "Webhooks & API Automation",
+    "Gap Description": "Insufficient examples and reference material on using webhooks and the zipBoard API for custom automation workflows, including rate limiting and error handling.",
     "Priority": "High",
     "Suggested Title": "Webhooks and API Automation Reference"
   }
