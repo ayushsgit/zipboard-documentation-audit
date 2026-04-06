@@ -2,36 +2,36 @@
   {
     "Gap ID": "GAP-001",
     "Category": "Integrations",
-    "Gap Description": "No documentation on how to trigger zipBoard actions via GitHub Actions or GitLab CI pipelines.",
+    "Gap Description": "No documentation covering CI/CD integrations such as GitHub Actions, GitLab CI, Bitbucket Pipelines, or Azure DevOps.",
     "Priority": "High",
-    "Suggested Title": "CI/CD Trigger Integration Guide"
+    "Suggested Title": "CI/CD Integration Guide Missing"
   },
   {
     "Gap ID": "GAP-002",
     "Category": "Accessibility",
-    "Gap Description": "Absence of WCAG 2.1 compliance report and accessibility testing procedures for zipBoard features.",
+    "Gap Description": "Lack of WCAG 2.1 compliance reporting and audit documentation for accessible review workflows.",
     "Priority": "High",
-    "Suggested Title": "Accessibility Compliance Documentation"
+    "Suggested Title": "Accessibility & WCAG Audit Documentation Gap"
   },
   {
     "Gap ID": "GAP-003",
-    "Category": "AdBlocker/Extension Troubleshooting",
-    "Gap Description": "No guide on resolving ad\u2011blocker or privacy extension interference with the zipBoard browser extension.",
+    "Category": "Extension Troubleshooting",
+    "Gap Description": "No troubleshooting guide for ad\u2011blocker or browser extension conflicts that prevent video/audio capture and annotation.",
     "Priority": "Medium",
-    "Suggested Title": "Ad\u2011Blocker & Extension Conflict Resolution"
+    "Suggested Title": "Ad\u2011Blocker & Extension Issue Troubleshooting Guide"
   },
   {
     "Gap ID": "GAP-004",
     "Category": "Enterprise Security",
-    "Gap Description": "Limited coverage of SAML/SSO setup and IP whitelisting configuration for enterprise accounts.",
+    "Gap Description": "Insufficient details on SSO (SAML/OIDC) setup, identity provider whitelisting, and granular permission controls.",
     "Priority": "High",
-    "Suggested Title": "Enterprise SSO and Whitelisting Setup"
+    "Suggested Title": "Enterprise SSO and Security Configuration Guide"
   },
   {
     "Gap ID": "GAP-005",
-    "Category": "Webhooks & API Automation",
-    "Gap Description": "Insufficient detail on available webhook events, payload schemas, and sample automation scripts for workflow automation.",
-    "Priority": "Medium",
-    "Suggested Title": "Webhook Event Reference & Automation Examples"
+    "Category": "Webhooks & API",
+    "Gap Description": "Missing comprehensive reference for webhook payloads, event mapping to zipBoard statuses, and sample automation scripts.",
+    "Priority": "High",
+    "Suggested Title": "Webhooks & API Automation Reference"
   }
 ]
