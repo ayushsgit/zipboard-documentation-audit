@@ -2,36 +2,36 @@
   {
     "Gap ID": "GAP-001",
     "Category": "Integrations",
-    "Gap Description": "No documentation covering CI/CD integrations such as GitHub Actions, GitLab CI, Bitbucket Pipelines, or Azure DevOps.",
+    "Gap Description": "No step-by-step documentation on integrating zipBoard with CI/CD pipelines such as GitHub Actions or GitLab CI to automatically create tasks or feedback loops.",
     "Priority": "High",
-    "Suggested Title": "CI/CD Integration Guide Missing"
+    "Suggested Title": "Integrating zipBoard with CI/CD Tools: GitHub Actions and GitLab CI"
   },
   {
     "Gap ID": "GAP-002",
     "Category": "Accessibility",
-    "Gap Description": "Lack of WCAG 2.1 compliance reporting and audit documentation for accessible review workflows.",
+    "Gap Description": "Missing guide on conducting WCAG accessibility audits within zipBoard and interpreting accessibility reports for digital assets.",
     "Priority": "High",
-    "Suggested Title": "Accessibility & WCAG Audit Documentation Gap"
+    "Suggested Title": "Running WCAG Accessibility Audits in zipBoard: A Complete Guide"
   },
   {
     "Gap ID": "GAP-003",
     "Category": "Extension Troubleshooting",
-    "Gap Description": "No troubleshooting guide for ad\u2011blocker or browser extension conflicts that prevent video/audio capture and annotation.",
-    "Priority": "Medium",
-    "Suggested Title": "Ad\u2011Blocker & Extension Issue Troubleshooting Guide"
+    "Gap Description": "Insufficient coverage of ad\u2011blocker and browser\u2011extension troubleshooting, including how to enable annotations when extensions block scripts.",
+    "Priority": "High",
+    "Suggested Title": "Fixing Ad\u2011Blocker and Extension Issues for zipBoard Annotations"
   },
   {
     "Gap ID": "GAP-004",
     "Category": "Enterprise Security",
-    "Gap Description": "Insufficient details on SSO (SAML/OIDC) setup, identity provider whitelisting, and granular permission controls.",
+    "Gap Description": "No detailed articles on configuring Single Sign\u2011On (SAML, OAuth), IP whitelisting, and security policies for enterprise accounts.",
     "Priority": "High",
-    "Suggested Title": "Enterprise SSO and Security Configuration Guide"
+    "Suggested Title": "Enterprise\u2011Grade Security Setup: SSO, SSO Providers, and IP Whitelisting in zipBoard"
   },
   {
     "Gap ID": "GAP-005",
-    "Category": "Webhooks & API",
-    "Gap Description": "Missing comprehensive reference for webhook payloads, event mapping to zipBoard statuses, and sample automation scripts.",
+    "Category": "Webhooks & API Automation",
+    "Gap Description": "Lack of comprehensive documentation on creating and managing webhooks, automating tasks via the zipBoard API, and reference payload schemas.",
     "Priority": "High",
-    "Suggested Title": "Webhooks & API Automation Reference"
+    "Suggested Title": "Automating Workflows with zipBoard Webhooks and API: Full Reference Guide"
   }
 ]
