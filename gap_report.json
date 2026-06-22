@@ -2,36 +2,36 @@
   {
     "Gap ID": "GAP-001",
     "Category": "Integrations",
-    "Gap Description": "No documentation on integrating zipBoard with CI/CD pipelines such as GitHub Actions, GitLab CI, or Jenkins to automatically post feedback as build status checks.",
+    "Gap Description": "No documentation on embedding zipBoard as a status check or gate in GitHub Actions or GitLab CI pipelines.",
     "Priority": "High",
-    "Suggested Title": "CI/CD Integration Guide for Automated Feedback"
+    "Suggested Title": "CI/CD Integration Guide for GitHub Actions and GitLab CI"
   },
   {
     "Gap ID": "GAP-002",
     "Category": "Accessibility",
-    "Gap Description": "Missing detailed instructions for conducting WCAG 2.1 compliance audits within zipBoard, including how to tag accessibility issues and generate compliance reports.",
+    "Gap Description": "Absence of a guide on conducting WCAG\u2011compliant accessibility audits within zipBoard and interpreting results.",
     "Priority": "High",
-    "Suggested Title": "WCAG Accessibility Audit Workflow in zipBoard"
+    "Suggested Title": "Accessibility Audit Documentation for WCAG Compliance"
   },
   {
     "Gap ID": "GAP-003",
-    "Category": "Enterprise Security",
-    "Gap Description": "Limited coverage of enterprise\u2011grade security features such as SAML/SSO configuration, IP whitelisting, and granular permission controls for external collaborators.",
-    "Priority": "High",
-    "Suggested Title": "Enterprise Security Setup: SSO, Whitelisting, and Permissions"
+    "Category": "AdBlocker/Extension Troubleshooting",
+    "Gap Description": "Limited troubleshooting steps for users encountering ad\u2011blocker or browser extension conflicts that prevent annotation capture.",
+    "Priority": "Medium",
+    "Suggested Title": "Browser Extension & Ad\u2011Blocker Troubleshooting Guide"
   },
   {
     "Gap ID": "GAP-004",
-    "Category": "Webhooks & API Automation",
-    "Gap Description": "Scarcity of examples showing how to use webhooks and the zipBoard API to trigger automated actions (e.g., Slack notifications, ticket creation) based on review events.",
-    "Priority": "Medium",
-    "Suggested Title": "Webhooks & API Automation Blueprint for Event\u2011Driven Workflows"
+    "Category": "Enterprise Security",
+    "Gap Description": "Insufficient detail on SSO configuration options, SAML settings, and IP whitelisting procedures for enterprise security compliance.",
+    "Priority": "High",
+    "Suggested Title": "Enterprise Security Setup: SSO and IP Whitelisting"
   },
   {
     "Gap ID": "GAP-005",
-    "Category": "Extension Troubleshooting",
-    "Gap Description": "Insufficient troubleshooting steps for ad\u2011blocker or browser\u2011extension issues that prevent the zipBoard extension from loading or recording feedback on certain corporate networks.",
-    "Priority": "Medium",
-    "Suggested Title": "Ad\u2011Blocker & Extension Troubleshooting Checklist"
+    "Category": "Webhooks & API Automation",
+    "Gap Description": "Missing comprehensive examples for using webhooks and the API to automate issue creation, status updates, and bulk data sync with external tools.",
+    "Priority": "High",
+    "Suggested Title": "Webhooks & API Automation Reference for External Workflow Integration"
   }
 ]
