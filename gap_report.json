@@ -2,36 +2,36 @@
   {
     "Gap ID": "GAP-001",
     "Category": "Integrations",
-    "Gap Description": "No documentation on CI/CD integrations with GitHub Actions or GitLab CI, leaving users without guidance on automating feedback loops in pipelines.",
+    "Gap Description": "No documentation on integrating zipBoard with CI/CD platforms such as GitHub Actions or GitLab CI for automated feedback loops.",
     "Priority": "High",
-    "Suggested Title": "CI/CD Automation Guide for zipBoard"
+    "Suggested Title": "CI/CD Integration Guide for Automated Reviews"
   },
   {
     "Gap ID": "GAP-002",
     "Category": "Accessibility",
-    "Gap Description": "Missing instructions on conducting WCAG accessibility audits within zipBoard, such as testing color contrast and screen reader compatibility for feedback annotations.",
-    "Priority": "Medium",
-    "Suggested Title": "Accessibility Auditing Checklist for zipBoard Reviewers"
+    "Gap Description": "Missing instructions on performing WCAG 2.1 compliance audits within zipBoard and interpreting accessibility results for reviewed content.",
+    "Priority": "High",
+    "Suggested Title": "Accessibility Auditing with zipBoard"
   },
   {
     "Gap ID": "GAP-003",
-    "Category": "Extension Troubleshooting",
-    "Gap Description": "No dedicated troubleshooting section for AdBlocker or browser extension issues that prevent annotation capture or live feedback submission.",
+    "Category": "AdBlocker/Extension Troubleshooting",
+    "Gap Description": "Lacks troubleshooting steps for ad\u2011blockers or browser extensions that prevent video playback, canvas rendering, or annotation features.",
     "Priority": "High",
-    "Suggested Title": "AdBlocker & Extension Troubleshooting Guide"
+    "Suggested Title": "Ad\u2011Blocker and Extension Troubleshooting"
   },
   {
     "Gap ID": "GAP-004",
     "Category": "Enterprise Security",
-    "Gap Description": "Insufficient details on SSO configuration (SAML, Azure AD) and IP whitelisting processes for enterprise accounts, limiting secure deployment.",
+    "Gap Description": "No detailed guide on configuring SSO (SAML) with custom identity providers and IP whitelisting for enterprise security.",
     "Priority": "High",
-    "Suggested Title": "Enterprise SSO and Whitelisting Setup Guide"
+    "Suggested Title": "Enterprise SSO and IP Whitelisting Setup"
   },
   {
     "Gap ID": "GAP-005",
-    "Category": "API/Webhooks",
-    "Gap Description": "Limited reference on webhook triggers, custom event payloads, and automated issue creation via the API, hindering advanced workflow automation.",
-    "Priority": "Medium",
-    "Suggested Title": "Advanced API & Webhook Automation Documentation"
+    "Category": "Webhooks & API Automation",
+    "Gap Description": "Insufficient reference for webhook payload schemas, OAuth 2.0 authentication, rate limiting, and example automation scripts for API usage.",
+    "Priority": "High",
+    "Suggested Title": "Webhooks and API Automation Reference"
   }
 ]
