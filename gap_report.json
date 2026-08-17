@@ -2,36 +2,36 @@
   {
     "Gap ID": "GAP-001",
     "Category": "Integrations",
-    "Gap Description": "No detailed guides on integrating zipBoard with CI/CD pipelines such as GitHub Actions or GitLab CI for automated visual regression testing and feedback loops.",
+    "Gap Description": "No documentation on integrating zipBoard with CI/CD pipelines such as GitHub Actions or GitLab CI for automated feedback collection.",
     "Priority": "High",
-    "Suggested Title": "Automating Visual Review with CI/CD: GitHub Actions & GitLab CI Integration"
+    "Suggested Title": "Automated Feedback via CI/CD Pipelines"
   },
   {
     "Gap ID": "GAP-002",
     "Category": "Accessibility",
-    "Gap Description": "Lack of comprehensive documentation on conducting WCAG accessibility audits within zipBoard, including how to validate contrast, keyboard navigation, and screen\u2011reader compatibility on reviewed assets.",
+    "Gap Description": "Missing guide on performing WCAG accessibility audits within zipBoard reviews, including contrast checks and keyboard navigation.",
     "Priority": "High",
-    "Suggested Title": "Performing WCAG Accessibility Audits in zipBoard"
+    "Suggested Title": "Running WCAG Accessibility Checks on Reviewed Assets"
   },
   {
     "Gap ID": "GAP-003",
-    "Category": "Extension Troubleshooting",
-    "Gap Description": "Insufficient troubleshooting steps for ad\u2011blocker or browser\u2011extension issues that prevent annotations, video recordings, or feedback capture, especially on Chrome, Firefox, and Edge.",
+    "Category": "Security",
+    "Gap Description": "Lack of detailed instructions for setting up SSO, SAML, and IP whitelisting to meet enterprise security requirements.",
     "Priority": "High",
-    "Suggested Title": "Resolving Ad\u2011Blocker & Extension Conflicts for Seamless Feedback"
+    "Suggested Title": "Implementing SSO and IP Whitelisting for Enterprise Security"
   },
   {
     "Gap ID": "GAP-004",
-    "Category": "Enterprise Security",
-    "Gap Description": "Missing detailed information on SSO configuration (SAML, Azure AD, Okta) and IP whitelisting options for enterprise accounts, including step\u2011by\u2011step setup instructions.",
+    "Category": "API & Automation",
+    "Gap Description": "No documentation on creating custom webhooks and leveraging the API for automated workflow triggers outside of standard integrations.",
     "Priority": "High",
-    "Suggested Title": "Enterprise SSO & IP Whitelisting: Step\u2011by\u2011Step Setup Guide"
+    "Suggested Title": "Building Custom Webhooks and API-Driven Automation"
   },
   {
     "Gap ID": "GAP-005",
-    "Category": "Webhooks & API Automation",
-    "Gap Description": "Limited coverage of webhook usage and advanced API automation patterns (e.g., triggered actions on new review feedback, bulk status updates), including code samples and best practices.",
-    "Priority": "High",
-    "Suggested Title": "Advanced Webhooks & API Automation for Custom Workflows"
+    "Category": "Extension Troubleshooting",
+    "Gap Description": "Insufficient troubleshooting steps for ad\u2011blocker or CSP conflicts that prevent the zipBoard browser extension from functioning.",
+    "Priority": "Medium",
+    "Suggested Title": "Resolving Extension Issues Caused by Ad Blockers or CSP"
   }
 ]
