@@ -2,36 +2,36 @@
   {
     "Gap ID": "GAP-001",
     "Category": "Integrations",
-    "Gap Description": "No documentation on integrating zipBoard with CI/CD pipelines such as GitHub Actions or GitLab CI for automated feedback collection.",
+    "Gap Description": "No documentation on integrating zipBoard with CI/CD pipelines such as GitHub Actions or GitLab CI for automated feedback capture.",
     "Priority": "High",
-    "Suggested Title": "Automated Feedback via CI/CD Pipelines"
+    "Suggested Title": "CI/CD Integration Guide (GitHub Actions, GitLab CI)"
   },
   {
     "Gap ID": "GAP-002",
     "Category": "Accessibility",
-    "Gap Description": "Missing guide on performing WCAG accessibility audits within zipBoard reviews, including contrast checks and keyboard navigation.",
+    "Gap Description": "Limited information on WCAG compliance, keyboard navigation, and screen\u2011reader support within zipBoard.",
     "Priority": "High",
-    "Suggested Title": "Running WCAG Accessibility Checks on Reviewed Assets"
+    "Suggested Title": "WCAG Accessibility Overview and Implementation Details"
   },
   {
     "Gap ID": "GAP-003",
-    "Category": "Security",
-    "Gap Description": "Lack of detailed instructions for setting up SSO, SAML, and IP whitelisting to meet enterprise security requirements.",
+    "Category": "Enterprise Security",
+    "Gap Description": "Insufficient coverage of SSO (SAML) setup, IP whitelisting, and detailed security configuration for enterprise accounts.",
     "Priority": "High",
-    "Suggested Title": "Implementing SSO and IP Whitelisting for Enterprise Security"
+    "Suggested Title": "Enterprise Security: SSO and IP Whitelisting Setup"
   },
   {
     "Gap ID": "GAP-004",
-    "Category": "API & Automation",
-    "Gap Description": "No documentation on creating custom webhooks and leveraging the API for automated workflow triggers outside of standard integrations.",
-    "Priority": "High",
-    "Suggested Title": "Building Custom Webhooks and API-Driven Automation"
+    "Category": "Webhooks & API Automation",
+    "Gap Description": "Missing tutorials on creating and using webhooks for real\u2011time notifications and automating tasks via the zipBoard API.",
+    "Priority": "Medium",
+    "Suggested Title": "Webhooks and API Automation: Real\u2011Time Notifications and Task Automation"
   },
   {
     "Gap ID": "GAP-005",
-    "Category": "Extension Troubleshooting",
-    "Gap Description": "Insufficient troubleshooting steps for ad\u2011blocker or CSP conflicts that prevent the zipBoard browser extension from functioning.",
+    "Category": "AdBlocker/Extension Troubleshooting",
+    "Gap Description": "No guidance on handling AdBlockers, browser extensions, or popup blockers that interfere with zipBoard functionality.",
     "Priority": "Medium",
-    "Suggested Title": "Resolving Extension Issues Caused by Ad Blockers or CSP"
+    "Suggested Title": "Extension and AdBlocker Troubleshooting Checklist"
   }
 ]
